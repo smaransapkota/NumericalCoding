@@ -2,14 +2,12 @@
 #include <math.h>
 double f(double x)
 {
-    // return exp((-x))-5;
     return log(x) + 6 * x - 5;
 }
 void main()
 {
     int iter = 1;
     double x1, x2, x3, err, E;
-    //printf("Given equation is:f(x)=e^(-x)-5\n\n");
     printf("Given equation is:f(x)=ln(x)+6x-5\n\n");
 
 loop:
